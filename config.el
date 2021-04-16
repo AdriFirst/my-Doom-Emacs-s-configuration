@@ -59,3 +59,5 @@
 ;;(setq evil-default-state emacs)
 
 (setq projectile-project-search-path'("~/INFORMATIQUE/"))
+
+(setq python-shell-interpreter "C:\\Users\\Adriroot\\AppData\\Local\\Programs\\Python\\Python39\\Python.exe")
