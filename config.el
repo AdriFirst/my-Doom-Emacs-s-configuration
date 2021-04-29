@@ -6,8 +6,6 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "Adrifirst"
-      user-mail-address "adrien.nolhier@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -58,6 +56,11 @@
 
 ;;(setq evil-default-state emacs)
 
-(setq projectile-project-search-path'("~/INFORMATIQUE/"))
+(setq projectile-project-search-path'("~/info/"))
 
 (setq python-shell-interpreter "C:\\Users\\Adriroot\\AppData\\Local\\Programs\\Python\\Python39\\Python.exe")
+
+(require 'elcord)
+(elcord-mode)
+
+(setq-default tab-width 4)
